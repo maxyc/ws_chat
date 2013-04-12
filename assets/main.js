@@ -7,7 +7,7 @@ $(function(){
     room = encodeURIComponent($('input[name=room]').val());
     
     
-    var host = "ws://localhost:8082";
+    var host = "ws://maxyc:8083";
     try{
 	ws = new WebSocket(host);
 	ws.onopen = start_chat;
