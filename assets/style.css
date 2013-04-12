@@ -1,0 +1,29 @@
+html, body, table{padding:0;margin:0;font-family:'PT Sans Narrow';font-size:12px;}
+h1,h2,h3,h4,h5{margin:0;padding:0;}
+
+body{padding:6px}
+
+#chat{width:100%;}
+#messages{border:1px solid #ccc;background:#FFF;overflow:auto;}
+#contacts{background:#FFF;width:200px;}
+#form	 {background:#FFF;height:1%;}
+
+.message{}
+.message .time{display:inline-block;padding:3px 6px;}
+.message .author{display:inline-block;padding:3px 6px;}
+.message .msg{display:inline-block;padding:3px 6px;}
+
+#contacts h3{font-size:16px;margin-bottom:6px;}
+#contacts ul{list-style-type:none;margin:0;padding:0;font-size:14px;font-weight:bold}
+#contacts ul li{cursor:pointer;padding-left:12px;border-bottom:1px solid #ccc;}
+#contacts ul li:last-child{border-bottom:none;}
+#contacts ul li:hover{background:#eee}
+#contacts ul li small{font-size:12px;font-weight:normal}
+
+
+
+
+/*    text = '<span class="time">' + time + '</span><span class="author">' + author + '</span><span class="msg">' + data.msg + '</span>';
+    
+    $('#messages').append('<div class="message">' + text + '</div>');
+*/
